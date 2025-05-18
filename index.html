@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Link & Hans Schedule</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Daily Schedule</h1>
+  <div class="container">
+    <div class="user" id="link">
+      <h2>Link</h2>
+      <div class="schedule" id="schedule-link"></div>
+      <form id="form-link">
+        <input type="time" name="time" required>
+        <input type="text" name="event" placeholder="Event" required>
+        <button type="submit">Add</button>
+      </form>
+      <h3>To-Do</h3>
+      <ul id="todo-link"></ul>
+      <form id="todo-form-link">
+        <input type="text" name="task" placeholder="New Quest" required>
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <div class="user" id="hans">
+      <h2>Hans</h2>
+      <div class="schedule" id="schedule-hans"></div>
+      <form id="form-hans">
+        <input type="time" name="time" required>
+        <input type="text" name="event" placeholder="Event" required>
+        <button type="submit">Add</button>
+      </form>
+      <h3>To-Do</h3>
+      <ul id="todo-hans"></ul>
+      <form id="todo-form-hans">
+        <input type="text" name="task" placeholder="New Quest" required>
+        <button type="submit">Add</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
