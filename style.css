@@ -33,6 +33,12 @@ h1 {
   margin: 5px 0;
 }
 
+.schedule-canvas {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background: #fefefe;
+}
+
 form input, form button {
   margin: 5px;
   padding: 5px;
