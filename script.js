@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const SUPABASE_URL = "https://xx.supabase.co";
-  const SUPABASE_KEY = "your-anon-key"; // Use anon/public key for frontend
+  const SUPABASE_URL = 'https://nlblghesdlyebtsjinbx.supabase.co';
+  const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5sYmxnaGVzZGx5ZWJ0c2ppbmJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc1NzQyNDYsImV4cCI6MjA2MzE1MDI0Nn0.Ba_t5fWZkr5pCpPNp3i9GG6tGkdCMQt1RD3Oz02at-0';
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
   ['link', 'hans'].forEach(user => {
