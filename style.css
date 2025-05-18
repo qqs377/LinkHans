@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.user {
+  width: 45%;
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.schedule, ul {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.schedule div, ul li {
+  background: white;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: gray;
+}
