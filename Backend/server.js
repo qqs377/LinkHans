@@ -6,8 +6,8 @@ const { createClient } = require('@supabase/supabase-js');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const SUPABASE_URL = 'https://your-project.supabase.co';
-const SUPABASE_KEY = 'your-service-role-key';
+const SUPABASE_URL = 'https://nlblghesdlyebtsjinbx.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5sYmxnaGVzZGx5ZWJ0c2ppbmJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc1NzQyNDYsImV4cCI6MjA2MzE1MDI0Nn0.Ba_t5fWZkr5pCpPNp3i9GG6tGkdCMQt1RD3Oz02at-0';
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 app.use(cors());
