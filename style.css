@@ -1,47 +1,59 @@
 body {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  background: #fdf6e3;
 }
 
 h1 {
-  margin: 20px 0;
+  text-align: center;
 }
 
-.container {
+#board {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.user {
+.user-section {
+  background: #fff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
   width: 45%;
-  background: #f4f4f4;
-  border-radius: 10px;
-  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.schedule, ul {
-  margin-top: 10px;
-  text-align: left;
+.schedule {
+  margin-bottom: 20px;
 }
 
-.schedule div, ul li {
-  background: white;
-  padding: 8px;
+.schedule-entry {
   margin: 5px 0;
-  border-radius: 6px;
+}
+
+form input, form button {
+  margin: 5px;
+  padding: 5px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 5px;
+}
+
+.todo-item.done span {
+  text-decoration: line-through;
+  color: #888;
 }
 
 button {
-  margin-left: 10px;
-}
-
-.checked {
-  text-decoration: line-through;
-  color: gray;
+  cursor: pointer;
 }
